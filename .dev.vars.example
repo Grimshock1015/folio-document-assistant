@@ -1,0 +1,9 @@
+# Copy to .dev.vars and add your own AI Space API key locally.
+# Never commit .dev.vars or put an API key into browser/client code.
+LLM_PROVIDER=aispace
+AISPACE_API_KEY=
+AISPACE_BASE_URL=https://ai.xyspace.dev/v1
+AISPACE_MODEL=gpt-6.1-sol
+# Optional legacy provider: set LLM_PROVIDER=anthropic and configure these instead.
+# ANTHROPIC_API_KEY=
+# ANTHROPIC_MODEL=claude-haiku-4-5
